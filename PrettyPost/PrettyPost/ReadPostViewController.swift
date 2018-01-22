@@ -1,19 +1,27 @@
 //
-//  CreatePostViewController.swift
-//  BlogApp
+//  ReadPostViewController.swift
+//  PrettyPost
 //
-//  Created by Shannon Phu on 1/18/18.
+//  Created by Kevin Tan on 1/21/18.
 //  Copyright © 2018 ACM Hack. All rights reserved.
 //
 
 import UIKit
 
-class CreatePostViewController: UIViewController {
+class ReadPostViewController: UIViewController {
 
+    var postTitle: String!
+    var postContents: String!
+    
+    @IBOutlet var backgroundImageView: UIImageView!
+    @IBOutlet var titleLabel: UILabel!
+    @IBOutlet var contentsTextView: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        titleLabel.text = postTitle
+        contentsTextView.text = postContents
     }
 
     override func didReceiveMemoryWarning() {

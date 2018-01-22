@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  BlogApp
+//  PrettyPost
 //
-//  Created by Shannon Phu on 1/18/18.
+//  Created by Kevin Tan on 1/21/18.
 //  Copyright © 2018 ACM Hack. All rights reserved.
 //
 
