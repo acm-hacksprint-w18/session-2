@@ -13,7 +13,6 @@ class ReadPostViewController: UIViewController {
     var postTitle: String!
     var postContents: String!
     
-    @IBOutlet var backgroundImageView: UIImageView!
     @IBOutlet var titleLabel: UILabel!
     @IBOutlet var contentsTextView: UITextView!
     

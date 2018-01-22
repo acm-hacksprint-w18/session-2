@@ -133,7 +133,6 @@
                         <viewLayoutGuide key="safeArea" id="8ug-hw-OU3"/>
                     </view>
                     <connections>
-                        <outlet property="backgroundImageView" destination="xDC-TL-edd" id="JVm-y7-5xR"/>
                         <outlet property="contentsTextView" destination="t92-6k-56N" id="4Lt-za-4ZI"/>
                         <outlet property="titleLabel" destination="41y-qf-3nG" id="Zwq-so-Wd7"/>
                     </connections>
