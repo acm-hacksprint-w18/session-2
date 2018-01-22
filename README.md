@@ -2,9 +2,24 @@
 
 ## Table of Contents
 
-- Getting Started
+- <a href="#1">Getting Started</a>
+- <a href="#2">Setting Up the UI</a>
+  - <a href="#3">Adding a Navigation Controller</a>
+  - <a href="#4">Designing our Root View Controller</a>
+  - <a href="#5">Designing the Navigation Bar</a>
+  - <a href="#6">Attributes and Constraints for the Root View Controller</a>
+  - <a href="#7">Adding a Second View Controller</a>
+  - <a href="#8">Adding a Segue</a>
+  - <a href="#9">Designing the Second View Controller</a>
+  - <a href="#10">Attributes and Constraints for the Second View Controller</a>
+- <a href="#11">Creating Classes for our View Controllers</a>
+- <a href="#12">Linking our IB Objects to our Code</a>
+- Coding in Swift
+  - <a href="#13">Giving our Text Field a Border</a>
+  - <a href="#14">Declaring the Properties we Need</a>
+  - <a href="#15">Passing Data Between View Controllers</a>
 
-## Getting Started
+## <a id="1">Getting Started</a>
 
 1. Begin by creating a new project in Xcode.
 2. Select "Create a new Xcode project" near the bottom left of the window.
@@ -31,11 +46,11 @@
 
 ---
 
-## Setting Up the UI
+## <a id="2">Setting Up the UI</a>
 
 1. Use the **Project Navigator** on the left to select the **Main.storyboard** file and open the Interface Builder.
 
-### Adding a Navigation Controller
+### <a id="3">Adding a Navigation Controller</a>
 
 1. We're going to be using a **Navigation Controller**, which manages a [stack](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Stacks%20and%20Queues/Stacks%20and%20Queues.html) of view controllers to provide a drill-down interface for hierarchical content. The Navigation Controller is responsible for "Header" views, and an example of one can be seen in the Messages app.
 2. Locate the UI elements on the bottom right of the screen, ensuring that the third tab (circle with a square in it) is selected at the top of the pane.
@@ -70,7 +85,7 @@
 
 ---
 
-### Designing our Root View Controller
+### <a id="4">Designing our Root View Controller</a>
 
 1. We're going to add all of the UI elements we need for our initial View Controller, and give them constraints using Auto Layout.
 2. In the bottom right of the screen, ensuring that the third tab is selected, scroll until you find the **Text Field** element.
@@ -99,7 +114,7 @@
 
 ---
 
-### Designing the Navigation Bar
+### <a id="5">Designing the Navigation Bar</a>
 
 1. We can also add UI elements to the Navigation Bar.
 2. Returning to the bottom right of the screen, ensure that the third tab is selected and scroll up until you find the **Button** element.
@@ -114,7 +129,7 @@
 
 ---
 
-### Attributes and Constraints for the Root View Controller
+### <a id="6">Attributes and Constraints for the Root View Controller</a>
 
 1. Select the Text Field (not the Text View!) we placed at the top of the View Controller.
 2. On the right side of the screen, open the **Attributes Inspector** by clicking the tab to the left of the ruler icon:
@@ -190,7 +205,7 @@ That's it for our Root View Controller!
 
 ---
 
-### Adding a Second View Controller
+### <a id="7">Adding a Second View Controller</a>
 
 1. Scroll to the very top of the pane in the bottom right corner of the screen, and ensure that the third tab is selected.
 2. Click and drag another View Controller into the Interface Builder, to the right of the other two.
@@ -199,7 +214,7 @@ That's it for our Root View Controller!
 
 ---
 
-### Adding a Segue
+### <a id="8">Adding a Segue</a>
 
 1. We want to click the "Post" button in our first View Controller and have it **segue**, or transition to this second View Controller.
 2. Select our Root View Controller (the one we just designed).
@@ -222,7 +237,7 @@ That's it for our Root View Controller!
 
 ---
 
-### Designing the Second View Controller
+### <a id="9">Designing the Second View Controller</a>
 
 1. Returning to the bottom right of the screen, ensure that the third tab is selected and scroll until you find the **Image View** element.
 
@@ -283,7 +298,7 @@ That's it for our Root View Controller!
 
 ---
 
-### Attributes and Constraints for the Second View Controller
+### <a id="10">Attributes and Constraints for the Second View Controller</a>
 
 1. Select the Image View that's currently at the very back of the second View Controller.
 2. On the right side of the screen, open the **Attributes Inspector** by clicking the tab to the left of the ruler icon.
@@ -367,7 +382,7 @@ That's it for our Root View Controller!
 
 ---
 
-### Creating Classes for each of our View Controllers
+## <a id="11">Creating Classes for our View Controllers</a>
 
 1. Using the **Project Navigator** on the left side of Xcode, select the **ViewController.swift** file.
 2. Change the class name from "ViewController" to "**CreatePostViewController**".
@@ -413,7 +428,7 @@ class CreatePostViewController: UIViewController {
 
 ---
 
-### Linking our IB Objects to our Code
+## <a id="12">Linking our IB Objects to our Code</a>
 
 1. Reselect CreatePostViewController (the root view controller).
 2. Click on the two overlapping circles near the top right of Xcode to open the **Assistant Editor**.
@@ -465,7 +480,7 @@ class CreatePostViewController: UIViewController {
 
 ## Coding in Swift
 
-### Giving our Text Field a Border
+### <a id="13">Giving our Text Field a Border</a>
 
 1. Close the Assistant Editor by clicking on the "X" on the top right of the pane with our code in it.
 
@@ -490,7 +505,7 @@ override func viewDidLoad() {
 
 **Checkpoint**: Build and run your app to see the border!
 
-### Declaring the Properties we Need - ReadPostViewController
+### <a id="14">Declaring the Properties we Need</a>
 
 1. Using the Project Navigator, select the **ReadPostViewController.swift** file.
 2. Above all of the IBOutlet statements, but still within the (`class ReadPostViewController` block), add the following code:
@@ -511,7 +526,7 @@ override func viewDidLoad() {
 }
 ```
 
-### Passing Data Between View Controllers
+### <a id="15">Passing Data Between View Controllers</a>
 
 1. Using the Project Navigator, select the **CreatePostViewController.swift** file.
 2. Add the following function above `viewDidLoad()`:
