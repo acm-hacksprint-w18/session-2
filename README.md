@@ -445,23 +445,19 @@ class CreatePostViewController: UIViewController {
 ---
 
 15. We can also use this pane to connect our Interface Builder objects to our code. It's sometimes easier to use when there are many objects on our View Controller which are difficult to click individually.
-16. While holding down control, click on the "Image View" cell in the "Read Post View Controller Scene" and drag to the space directly directly **above** the `viewDidLoad()` function.
-17. In the window that appears, **ensure that the "Type" field says UIImageView, else press "Cancel" and try again.**
-18. Set the "Name" field to **backgroundImageView**.
+16. While holding down control, click on the "Label" cell in the "Read Post View Controller Scene" (underneath the "View" cell)  and drag to the space directly directly **above** the `viewDidLoad()` function.
+17. In the window that appears, **ensure that the "Type" field says UILabel, else press "Cancel" and try again.**
+18. Set the "Name" field to **titleLabel**.
 19. Click "Connect".
 
-<img src="https://lh3.googleusercontent.com/5iGlRDyre81-9HIybE8YFVqk_fPtN1Z6fRy6nsIjb092QG2ff6RN_7nqut482CYceZzEld3n6YzPyZrrE7_QWDHB6WaTziAoYxS2uSX_mmsZ4JBBeG813wdWB3zIcm3UdYtnu5Z5" width="500px">
+<img src="https://lh6.googleusercontent.com/tBBIrryaY1ZXJex6T2_JVhWeVNAjfaXV-8g0t09E-h5olk_0OIoB7KjKGiJrF_wq2ARvSgyK72HnRwGPk5zpHqeZ4H0dmNHZb_4amM8XY1JfL1GAQOfsPRfPvMXCHZVhw1SHwgif" width="300px">
 
 ---
 
-20. While holding down control, click on the "Label" cell in the "Read Post View Controller Scene" (underneath the "View" cell) and drag to the space directly **below** the backgroundImageView line we just made.
-21. In the window that appears, **ensure that the "Type" field says UILabel, else press "Cancel" and try again.**
-22. Set the "Name" field to **titleLabel**.
-23. Click "Connect".
-24. While holding down control, click on the "Text View" cell in the "Read Post View Controller Scene" (underneath the "Label" cell) and drag to the space directly **below** the titleLabel line we just made.
-25. In the window that appears, **ensure that the "Type" field says UITextView, else press "Cancel" and try again.**
-26. Set the "Name" field to **contentsTextField**.
-27. Click "Connect". You should see the following:
+20. While holding down control, click on the "Text View" cell in the "Read Post View Controller Scene" (underneath the "Label" cell) and drag to the space directly **below** the titleLabel line we just made.
+21. In the window that appears, **ensure that the "Type" field says UITextView, else press "Cancel" and try again.**
+22. Set the "Name" field to **contentsTextField**.
+23. Click "Connect". You should see the following:
 
 <img src="https://lh5.googleusercontent.com/rhKqhTPNcBjX16SSGOzzkb9bZMVFqBRRgiMBXkMg-33Kt2E0sf0K5cygEN2PROPqAVWQNFOhZ3EN47M3ZgNZj30cdyR_qcq4k0FQvWnmBw52hUUpAYWdcuyRiyFeAyySnfnzmmgI" width="300px">
 
