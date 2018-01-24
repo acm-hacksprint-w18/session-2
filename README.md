@@ -1,5 +1,7 @@
 # Hack Sprint Session 2 README
 
+Slides: https://docs.google.com/presentation/d/1yhUUzHScKqshYYoC4rqx0tK1NNfxYVVE6zMS-6y2pNQ/edit?usp=sharing
+
 ## Table of Contents
 
 - <a href="#1">Getting Started</a>
@@ -474,7 +476,7 @@ class CreatePostViewController: UIViewController {
 22. Set the "Name" field to **contentsTextField**.
 23. Click "Connect". You should see the following:
 
-<img src="https://lh5.googleusercontent.com/rhKqhTPNcBjX16SSGOzzkb9bZMVFqBRRgiMBXkMg-33Kt2E0sf0K5cygEN2PROPqAVWQNFOhZ3EN47M3ZgNZj30cdyR_qcq4k0FQvWnmBw52hUUpAYWdcuyRiyFeAyySnfnzmmgI" width="300px">
+<img src="https://lh4.googleusercontent.com/geQTsPQXOOAR7EQngvEbIctEbP46eIP1BTw4i6j8fcVnRZe_okARQSCkrxkrzYoOVLjcFMcQH_tC5ND1-jSRehE3-v5TCihSvUgIji_hs2wehhKcbEFhfEMcqHE-EanaQMRpk2hf" width="400px">
 
 ---
 
