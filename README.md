@@ -473,7 +473,7 @@ class CreatePostViewController: UIViewController {
 
 20. While holding down control, click on the "Text View" cell in the "Read Post View Controller Scene" (underneath the "Label" cell) and drag to the space directly **below** the titleLabel line we just made.
 21. In the window that appears, **ensure that the "Type" field says UITextView, else press "Cancel" and try again.**
-22. Set the "Name" field to **contentsTextField**.
+22. Set the "Name" field to **contentsTextView**.
 23. Click "Connect". You should see the following:
 
 <img src="https://lh4.googleusercontent.com/geQTsPQXOOAR7EQngvEbIctEbP46eIP1BTw4i6j8fcVnRZe_okARQSCkrxkrzYoOVLjcFMcQH_tC5ND1-jSRehE3-v5TCihSvUgIji_hs2wehhKcbEFhfEMcqHE-EanaQMRpk2hf" width="400px">
@@ -524,7 +524,7 @@ override func viewDidLoad() {
 	super.viewDidLoad()
         
 	titleLabel.text = postTitle
-	contentsTextField.text = postContents
+	contentsTextView.text = postContents
 }
 ```
 
