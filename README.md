@@ -524,7 +524,7 @@ override func viewDidLoad() {
 	super.viewDidLoad()
         
 	titleLabel.text = postTitle
-	contentsTextView.text = postContents
+	contentsTextField.text = postContents
 }
 ```
 
